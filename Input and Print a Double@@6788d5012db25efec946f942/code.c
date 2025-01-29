@@ -2,9 +2,9 @@
 
 int main() {
     float a;
-    printf("")
+    printf("");
     scanf("%f",a);
-    a=(double)a
-    printf("You entered: %f",a)
+    a=(double)a;
+    printf("You entered: %f",a);
     return 0;
 }

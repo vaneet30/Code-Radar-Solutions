@@ -5,7 +5,8 @@
 
 int main() {
     char a[30];
-    scanf("%29s",a);
+    char second[20]
+    scanf("%29s %19s", a, b);
     printf("You entered: %s and %s", a);
     return 0;
 }

@@ -1,8 +1,8 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int a[50];
-    char b;
+    char a[50];
+    int b;
     char c[50];
     scanf("%c %d %c",a,&b,c);
     printf("Name: %c\n",a);

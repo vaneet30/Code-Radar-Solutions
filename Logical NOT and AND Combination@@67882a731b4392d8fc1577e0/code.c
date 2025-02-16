@@ -8,13 +8,9 @@ int main() {
     if (a==0 || b == 0) { 
         printf("True");  // If either value is zero, print "True"
     } 
-    else if ((a < 0 && b < 0 )|| (a>0 && b>0)) {  
+    else if (!(a < 0) &&!( b < 0 )) {  
         printf("True");  // If a is positive and b is negative, print "True"
     } 
-    else if(a>0 && a==0)
-    {
-        printf("False");
-    }
     else {
         printf("False");  // In all other cases, print "False"
     }

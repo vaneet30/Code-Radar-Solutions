@@ -1,13 +1,16 @@
-// Your code here...
-#include<stdio.h>
-int main(){
-    int a;
-    scanf("d",&a);
-    for(int i=1;i<a;i++){
-        for(int j=1;j<i-1;j++){
-            printf("*");
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter the number of rows: ");
+    scanf("%d", &n);
+
+    for (int i = n; i >= 1; i--) {  // Loop for rows (decreasing order)
+        for (int j = 1; j <= i; j++) {  // Loop for printing stars
+            printf("* ");
         }
-        printf("\n");
+        printf("\n");  // Move to the next line
     }
+
     return 0;
 }

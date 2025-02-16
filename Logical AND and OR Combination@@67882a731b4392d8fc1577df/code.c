@@ -25,7 +25,7 @@ int main() {
 
     // if (a == 0 || b == 0) { 
     //     printf("True");  // If either value is zero, print "True"
-    } 
+    
     if (a >= 0 && b <= 0) {  
         printf("True");  // If a is positive and b is negative, print "True"
     } 

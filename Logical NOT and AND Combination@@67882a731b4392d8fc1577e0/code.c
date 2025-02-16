@@ -13,7 +13,7 @@ int main() {
     } 
     else if(a<0 || a==0)
     {
-        printf("False")
+        printf("False");
     }
     else {
         printf("False");  // In all other cases, print "False"

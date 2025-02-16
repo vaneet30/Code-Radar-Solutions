@@ -11,7 +11,7 @@ int main() {
     else if (a < 0 && b < 0) {  
         printf("True");  // If a is positive and b is negative, print "True"
     } 
-    else if(a<0 || a==0)
+    else if(a>0 || a==0)
     {
         printf("False");
     }

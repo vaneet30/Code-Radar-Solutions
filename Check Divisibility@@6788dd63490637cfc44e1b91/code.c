@@ -13,4 +13,4 @@ int main(){
         printf("Not Divisible");
     }
     return 0;
-}.
+}

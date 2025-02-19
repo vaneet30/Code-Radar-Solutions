@@ -25,7 +25,7 @@ int main() {
     if (c >= 'a' && c <= 'z') {
         printf(" Lowercase ");
     } else if (c >= 'A' && c <= 'Z') {
-        printf(" UIppercase ");
+        printf(" Uppercase ");
     } else {
         printf("%c is not an alphabetic character.\n", c);
     }

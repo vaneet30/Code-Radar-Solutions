@@ -23,9 +23,9 @@ int main() {
     scanf("%c", &c);
 
     if (c >= 'a' && c <= 'z') {
-        printf(" Lowercase ");
+        printf("Lowercase ");
     } else if (c >= 'A' && c <= 'Z') {
-        printf(" Uppercase ");
+        printf("Uppercase ");
     } else {
         printf("%c is not an alphabetic character.\n", c);
     }

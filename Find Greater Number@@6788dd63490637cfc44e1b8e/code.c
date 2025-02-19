@@ -1,9 +1,8 @@
-// Your code here...
-// Your code here...
+
 #include<stdio.h>
 int main(){
     int n,n1;
-    scanf("%d %d",&n1,&n);
+    scanf("%d %d",&n,&n1);
     if(n<n1);
     {
         printf("%d",n1);

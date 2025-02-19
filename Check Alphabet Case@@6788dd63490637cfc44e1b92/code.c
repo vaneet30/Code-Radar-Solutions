@@ -2,8 +2,8 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int n;
-    scanf("%d",&n);
+    char n;
+    scanf("%s",&n);
     if(n<='a' || n<='z')
     {
         printf("Lowercase");

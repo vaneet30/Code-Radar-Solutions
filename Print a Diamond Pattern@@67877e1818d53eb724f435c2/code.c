@@ -15,7 +15,10 @@ int main()
             printf("\n");
 
     }
-    // for(int i=)
+    for(int i=n;n<n-1;i--)
+    {
+        printf("*")
+    }
 
 
     return 0;

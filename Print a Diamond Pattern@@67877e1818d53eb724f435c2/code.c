@@ -17,7 +17,8 @@ int main()
     }
     for(int i=n;n<n-1;i--)
     {
-        printf("*")
+        printf("*");
+        printf("\n");
     }
 
 

@@ -15,7 +15,7 @@ int main()
             printf("\n");
 
     }
-    for(int i=)
+    // for(int i=)
 
 
     return 0;

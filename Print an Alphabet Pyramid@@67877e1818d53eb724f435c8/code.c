@@ -12,8 +12,12 @@ int main()[
         }
         for(int k=1;k<=i;k++)
         {
-            print("%c",ch);
+            print("%c",ch++);
+            if(ch>'Z'){
+                ch='A'
+            }
         }
+            
         printf("\n");
     }
     return 0;

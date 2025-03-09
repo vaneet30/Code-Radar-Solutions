@@ -14,7 +14,7 @@ int main(){
         {
             printf("%c",ch++);
             if(ch>'Z'){
-                ch='A'
+                ch='A';
             }
         }
             

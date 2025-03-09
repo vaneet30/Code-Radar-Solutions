@@ -27,14 +27,8 @@ int main() {
 
     for (int i = 1; i <= rows; i++) {
         for (int j = 1; j <= i; j++) {
-            if(j%2==0){
-                printf("%d",j);
-            }
-            else {
-                printf("0");
-            }
-            
-         
+            printf("%d ", num);
+            num = num; // Toggle between 0 and 1
         }
         printf("\n");
     }

@@ -12,7 +12,7 @@ int main(){
         }
         for(int k=1;k<=i;k++)
         {
-            print("%c",ch++);
+            printf("%c",ch++);
             if(ch>'Z'){
                 ch='A'
             }

@@ -1,38 +1,18 @@
 // Your code here...
 #include<stdio.h>
-// int main(){
-//     int n;
-//     scanf("%d",&n);
-//     for(int i=0;i<=n;i++)
-//     {    
-//         int ch=1;
-//         for(int k=1;k<=i;k++)
-//         {   if(ch>0){
-//             ch=1;
-//         }
-//             printf("%d ",ch);
-//             ch--;   
-//         }
-//         printf("\n");
-//     }   
-//     return 0;
-// }
-
-#include <stdio.h>
-
-int main() {
-    int rows, num = 1;
-
-    scanf("%d", &rows);
-
-    for (int i = 1; i <= rows; i++) {
-        for (int j = 1; j <= i; j++) {
-            printf("%d ", num);
-            num = num; // Toggle between 0 and 1
+int main(){
+    int n;
+    scanf("%d",&n);
+    for(int i=0;i<=n;i++){
+    
+        for(int k=1;k<=i;k++)
+        {   
+            printf("%d",(i+j)%2);
         }
+        
         printf("\n");
-    }
-
+    }   
     return 0;
 }
+
 

@@ -1,7 +1,7 @@
 // Your code here...
 int main()[
     int n;
-    char a='A';
+    char ch='A';
     scanf("%d",&n);
     for(int i=1;i<=n;i++)
     {
@@ -11,7 +11,7 @@ int main()[
         }
         for(int k=1;k<=i;k++)
         {
-            print("%c",k);
+            print("%c",ch);
         }
         printf("\n");
     }

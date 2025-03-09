@@ -11,10 +11,11 @@ int main(){
             printf("%c ",ch);
             ch++
            
-            }
         }
-            
         printf("\n");
     }
+            
+        
+    
     return 0;
 }

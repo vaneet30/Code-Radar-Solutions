@@ -9,7 +9,7 @@ int main(){
         for(int k=1;k<=i;k++)
         {
             printf("%c ",ch++);
-            if(ch>'Z'){
+            if(ch>'A'){
                 ch='A';
             }
         }

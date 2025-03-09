@@ -1,6 +1,7 @@
 // Your code here...
 int main()[
     int n;
+    char a='A';
     scanf("%d",&n);
     for(int i=1;i<=n;i++)
     {

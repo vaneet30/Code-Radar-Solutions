@@ -21,16 +21,18 @@
 #include <stdio.h>
 
 int main() {
-    int rows;
+    int rows, num = 1;
+
     scanf("%d", &rows);
 
-    for (int i = 1; i <= rows; i++) { // Increasing rows
+    for (int i = 1; i <= rows; i++) {
         for (int j = 1; j <= i; j++) {
-            // Print 0 for even positions, 1 for odd positions
-            printf("%d ", (j % 2 == 0) ? 0 : 1);
+            printf("%d ", num);
+            num = !num; // Toggle between 0 and 1
         }
         printf("\n");
     }
 
     return 0;
 }
+

@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-int main()[
+int main(){
     int n;
     char ch='A';
     scanf("%d",&n);
@@ -21,4 +21,4 @@ int main()[
         printf("\n");
     }
     return 0;
-]
+}

@@ -8,7 +8,7 @@ int main(){
         if(arr[i]==1)
         {
             i++;
-            print("Sorted");
+            printf("Sorted");
         }
         else printf("Not Sorted");
            i

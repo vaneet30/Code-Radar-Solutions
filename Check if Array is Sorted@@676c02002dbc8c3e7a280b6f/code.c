@@ -2,21 +2,21 @@
 int main(){
     int n;
     int arr[n];
-    int s=0;
+    int s=1;
 
     for(int i=0;i<n;i++)
     {
-        scanf("%d",&n);       
+        scanf("%d",arr[i]);       
     }
     for(int i=0;i<n;i++)
     {
-        if(arr[i]<=arr[i-1]){
-            s=1;
+        if(arr[i]>=arr[i-1]){
+            s=0;
             
         }
-        else s=0;
+       
     }
-    if(s=1)
+    if(s)
         printf("Sorted");
     else
         printf("Not Sorted");

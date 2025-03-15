@@ -1,5 +1,6 @@
 // Your code here...
 #include<stdio.h>
+#includ< 
 int main(){
     int n;
     scanf("%d",&n);

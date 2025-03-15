@@ -12,7 +12,7 @@ int main(){
             printf("Sorted");
         }
         else printf("Not Sorted");
-           i
+           
     }
     return 0;
 }

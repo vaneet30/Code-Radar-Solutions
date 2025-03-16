@@ -8,7 +8,10 @@ int main() {
     }
     int count=1;
     for(int i = 0; i < n; i++) 
-    {
+    {   if(arr[i]==1)
+        {
+            continue;
+        }
         for(int j=i+1;j<n;j++)
         {
             if(arr[i]==arr[j])
@@ -23,9 +26,5 @@ int main() {
         printf("%d %d\n", arr[i], count);
 
     }
-    
-    
-    
-
     return 0;
 }

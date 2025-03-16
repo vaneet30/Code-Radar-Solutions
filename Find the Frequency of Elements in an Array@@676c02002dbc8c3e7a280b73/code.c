@@ -19,7 +19,7 @@ int main() {
                 count++;
                 i++;
                 j=i+1;
-                
+                arr[i]=1;
             }
             
         }

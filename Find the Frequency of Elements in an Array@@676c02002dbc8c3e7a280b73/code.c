@@ -16,12 +16,13 @@ int main() {
                 count++;
                 i++;
                 j=i+1;
+                arr[i]=re;
             }
             
         }
 
     }
-    printf("%d %d\n", arr[i], count);
+    printf("%d %d\n", re, count);
     
     
 

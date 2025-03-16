@@ -19,7 +19,7 @@ int main() {
             if(arr[i]==arr[j])
             {
                 count++;
-                arr[j]=-1
+                arr[j]=-1;
                
 
             }

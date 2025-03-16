@@ -20,7 +20,7 @@ int main() {
             }
             
         }
-        printf("%d %d\n", re, count);
+        printf("%d %d\n", arr[i], count);
 
     }
     

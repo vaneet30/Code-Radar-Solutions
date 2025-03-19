@@ -11,7 +11,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
     for(int i=0;i<n;i++){
-        if(arr[i]==x){
+        if(arr[i]==v){
             printf("%d",arr[i]);
         }
     }

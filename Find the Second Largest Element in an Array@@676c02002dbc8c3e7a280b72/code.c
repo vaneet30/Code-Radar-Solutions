@@ -25,7 +25,8 @@ int main() {
             smax=arr[i];
 
     }
-    printf("%d",smax);
-    return 0;
+    
 }
+printf("%d",smax);
+    return 0;
 }

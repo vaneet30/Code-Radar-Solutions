@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <limits.h>
 
 int main() {
     int n,v,c;
@@ -16,6 +15,9 @@ int main() {
             arr[i]=c;
         }
     }
-    printf("%d",c);
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
+    }
+    
     return 0;
 }    

@@ -3,7 +3,7 @@
 int main() {
     int n;
     int max=arr[0];
-   int  smax=;arr[0];
+   int  smax=arr[0];
 
     scanf("%d", &n);
     int arr[n];

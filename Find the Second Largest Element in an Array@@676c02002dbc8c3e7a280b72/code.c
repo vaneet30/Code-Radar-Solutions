@@ -3,8 +3,8 @@
 
 int main() {
     int n;
-    int max=arr[0];
-   int  smax=arr[0];
+    int max=INT_MIN;
+   int  smax=INT_MIN;
 
     scanf("%d", &n);
     int arr[n];

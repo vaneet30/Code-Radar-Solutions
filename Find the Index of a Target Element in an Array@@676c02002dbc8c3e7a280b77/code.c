@@ -12,12 +12,9 @@ int main() {
     }
     for(int i=0;i<n;i++){
         if(arr[i]==v){
-            arr[i]=c;
+            i=c;
         }
     }
-    for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
-    }
-    
+    printf("%d",c); 
     return 0;
 }    

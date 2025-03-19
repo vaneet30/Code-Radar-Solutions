@@ -23,13 +23,9 @@ int main() {
         else if(smax<arr[i])
         {
             smax=arr[i];
-        }
-        if(smax==max) 
-        {   printf("-1");
-        }
-      
 
     }
     printf("%d",smax);
     return 0;
+}
 }

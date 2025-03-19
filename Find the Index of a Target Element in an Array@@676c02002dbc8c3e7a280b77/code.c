@@ -4,8 +4,9 @@
 int main() {
     int n,v,c;
     scanf("%d", &n);
-    int arr[n];
     scanf("%d",&v);
+    int arr[n];
+    
 
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);

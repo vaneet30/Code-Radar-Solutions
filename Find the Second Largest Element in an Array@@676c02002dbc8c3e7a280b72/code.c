@@ -24,7 +24,7 @@ int main() {
         {
             smax=arr[i];
         }
-        if(max==max) 
+        if(smax==max) 
         {   printf("-1");
         }
       

@@ -12,9 +12,10 @@ int main() {
     }
     for(int i=0;i<n;i++){
         if(arr[i]==v){
-            return i;
+            printf("%d",i);
+            return 0;
         }
-    }return -1;
-    
+    }
+    printf("-1");
     return 0;
 }    

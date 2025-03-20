@@ -15,8 +15,7 @@ int main() {
             printf("%d",i);
             return 0;
         }
-         printf("-1");
     }
-   
+    printf("-1");
     return 0;
 }    

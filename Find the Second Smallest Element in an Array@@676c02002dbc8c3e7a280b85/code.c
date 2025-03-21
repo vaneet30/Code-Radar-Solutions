@@ -23,5 +23,6 @@ int main() {
             min=arr[i];
         }
     }
+    printf("%d",smin);
     return 0;
 }

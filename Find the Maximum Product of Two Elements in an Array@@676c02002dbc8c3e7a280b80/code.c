@@ -15,9 +15,9 @@ int main() {
     }
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n ;j++){
-            product=i*j;
-            if(max<product){
-                max=product;
+            arr[i]*=arr[j];
+            if(arr[i]>max){
+                max=arr[i];
             }
 
         }

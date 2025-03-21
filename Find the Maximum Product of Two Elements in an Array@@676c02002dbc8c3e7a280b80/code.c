@@ -3,7 +3,6 @@
 
 int main() {
     int n;
-   int product=1;
    int max=INT_MIN;
 
     scanf("%d", &n);
@@ -15,9 +14,9 @@ int main() {
     }
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n ;j++){
-            arr[i]*=arr[j];
-            if(arr[i]>max){
-                max=arr[i];
+            int product=arr[i]*arr[j];
+            if(product>max){
+                max=product;
             }
 
         }

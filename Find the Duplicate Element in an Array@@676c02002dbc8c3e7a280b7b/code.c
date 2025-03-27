@@ -13,9 +13,10 @@ int main() {
             if(arr[i]==arr[j])
             {
                 break;
+                printf("%d",arr[i]);
+                return 0;
                 
             }
-            printf("%d",arr[i]);
         
         }
         

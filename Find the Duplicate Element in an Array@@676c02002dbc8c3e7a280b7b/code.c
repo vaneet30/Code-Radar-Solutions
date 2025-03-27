@@ -16,8 +16,9 @@ int main() {
                 
             }
         }
+        printf("%d",arr[i]);
         
     }
-    printf("%d",arr[i]);
+    
     return 0;
 }

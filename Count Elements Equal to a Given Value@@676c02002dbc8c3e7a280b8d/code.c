@@ -12,9 +12,9 @@ int main(){
             continue;
         }
         for(int j=i+1;i<n;i++){
-            if(arr[i]==arr[j]){
+            if(arr[i]==k){
                 count++;
-                arr[i]=-1;
+                arr[j]=-1;
             }
 
         }

@@ -13,13 +13,11 @@ int main() {
                 printf("%d",arr[j]);
                 found=1;
                 break;
-                // printf("%d",arr[j]);
+                
             }
-        if(found){
+        }
+         if(found){
             break;
-        }    
-          
-
         }
     }
     if(!found){

@@ -14,7 +14,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    printf("enter a step");
     scanf("%d",&k);
     k=k%n;
     reverse(arr,0,n-1);
